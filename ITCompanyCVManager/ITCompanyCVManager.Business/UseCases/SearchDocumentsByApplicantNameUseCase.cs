@@ -39,7 +39,6 @@ public class SearchDocumentsByApplicantNameUseCase :
                                 .Query("*" + request.Lastname + "*")
                             )
                     )
-
                 )
             ), cancellationToken);
 
